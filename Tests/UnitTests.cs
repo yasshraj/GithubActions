@@ -31,6 +31,7 @@ namespace GithubActionsLab
         }
 
         // Implement 3 tests per operation, following a similar pattern as above
+        [Test]
         public void Power_Valid_yashraj()
         {
             Assert.AreEqual(1, Program.Power("1", "2"));
